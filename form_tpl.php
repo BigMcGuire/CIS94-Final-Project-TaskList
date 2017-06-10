@@ -2,7 +2,7 @@
 <fieldset>
 
 <!-- Form Name -->
-<legend><?php echo $page->legend; ?></legend>
+
 
 <!-- Text input-->
 <div class="form-group">
@@ -15,12 +15,12 @@
 
 <!-- Textarea -->
 <div class="form-group">
-  <label class="col-md-4 control-label" for="textarea">Note</label>
+  <label class="col-md-4 control-label" for="datecompleted">Date Created</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="note" name="note"></textarea>
+    <input type="date" class="form-control" id="datecreated" name="datecreated">
   </div>
 </div>
-<!-- Textarea -->
+
 <div class="form-group">
   <label class="col-md-4 control-label" for="datecompleted">Date Completed</label>
   <div class="col-md-4">                     
